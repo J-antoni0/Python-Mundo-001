@@ -1,10 +1,8 @@
 import random
 
-print('Alunos sorteados :')
-print('[1] João')
-print('[2] Maria')
-print('[3] Kamilly')
-print('[4] Jv')
+alunos = ['jv','kamilly','maria','bettina']
 
+random.shuffle(alunos)
 
-print('O aluno escolhido foi {}'.format(random.randint(1,4)))
+for aluno in alunos:
+    print(aluno)

@@ -1,4 +1,3 @@
-import math
+n1 = float(input('Qual a number :'))
 
-number = float(input('Digite um numero : '))
-print('O primeiro number é {}'.format(math.trunc(number)))
+print('O numero inteiro de {} é {}'.format(n1, int(n1)))
